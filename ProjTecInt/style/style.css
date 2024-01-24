@@ -190,7 +190,7 @@ h1 {
 }
 
 .image {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     margin-right: 20px;
     
@@ -440,6 +440,7 @@ form input:required:valid+.hint::before {
 /* change form hint arrow color when valid */
 
 /*FIM FORMULAIO OPINIOES*/
+
 
 .figureFooter {
     width: 150px;
