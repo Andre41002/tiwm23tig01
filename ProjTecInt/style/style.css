@@ -230,7 +230,7 @@ h1 {
 
 /* Typographic */
 body {
-    font: 14px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font: 16px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
     padding: 0px;
     margin-top: -10px;
     margin-left: -8px;
@@ -245,7 +245,7 @@ form label {
 
 
 form ul {
-    width: 750px;
+    width: 50%;
     list-style-type: none;
     list-style-position: outside;
     margin: 0px;
@@ -266,7 +266,6 @@ form li:last-child {
 form label {
     width: 150px;
     margin-top: 3px;
-    display: inline-block;
     float: left;
     padding: 3px;
 }
