@@ -27,12 +27,6 @@ function showSlides(n) {
     dots[slideIndex - 1].className += " active";
 }
 
-/*FORMULARIO OPINIOES*/
-/*
- * Install nodejs
- * > npm i
- * > node server.js
-*/
 
 var express = require("express"),
     fs = require("fs"),

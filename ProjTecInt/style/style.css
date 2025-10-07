@@ -82,8 +82,23 @@ h1 {
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 50%;
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
 }
+/*Side-by-side slider e texto*/
+.slideshow-boxing {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.slideshowText {
+    flex: 1;
+    margin-left: 40px;
+    /* This allows the text to take up the remaining space */
+} 
+/*Fim side-by-side*/
 
 /* Hide the images by default */
 .mySlides {
@@ -201,26 +216,7 @@ h1 {
     /* This allows the text to take up the remaining space */
 }
 /*Fim side-by-side*/
-/*Side-by-side slider e texto*/
-.slideshow-boxing {
-    display: flex;
-    align-items: center;
-    margin-left: 8px;
-}
 
-.slideshow-container {
-    max-width: 100%;
-    height: auto;
-    margin-right: 20px;
-    
-}
-
-.slideshowText {
-    flex: 1;
-    margin-left: 40px;
-    /* This allows the text to take up the remaining space */
-} 
-/*Fim side-by-side*/
 
 /*ESTILO DE FORMULARIO OPINIOES*/
 /* Remove outline on all focus */
@@ -245,11 +241,13 @@ form label {
 
 
 form ul {
-    width: 50%;
+    width: 75%;
     list-style-type: none;
-    list-style-position: outside;
-    margin: 0px;
+    text-align: center;
+    margin-left: auto;
     padding: 0px;
+    border-width: 5px;
+    margin-right: auto;
 }
 
 form li {
@@ -458,4 +456,7 @@ footer {
     bottom: 0;
     width: auto;
     float: none;
+}
+#footerBrand{
+    font-size: 12px;
 }
